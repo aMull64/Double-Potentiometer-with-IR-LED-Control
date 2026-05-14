@@ -6,15 +6,19 @@
 <img src="Circuit_Board_Scale.jpeg" alt="Circuit_Board_Scale: a picture of the circuit next to a quarter" width="500"/>
 <img src="Circuit_Board_Connectors.jpeg" alt="Circuit_Board_Connectors: a picture of the circuit revealing the pin placements" width="500"/>
 
-The pins go as follows: GND, Lout, Rout, GND, Lin, Rin, OUT, IN, LED
-Looking at the back reveals that both grounds are connected to eachother, creating a common ground
+The pins go as follows: GND, Lout, Rout, GND, Lin, Rin, OUT, IN, LED. Looking at the back reveals that both grounds are connected to eachother, creating a common ground.
+
 Lout and Rout are the left and right channels post-potentiometer
+
 Lin and Rin are the left and right channels pre-potentiometer
+
 OUT and IN seem to be used as a way to tell if the system is on or off.  They are connected through the dbdt switch and nothing else.
+
 LED is the power that goes to the LED, we might be able to tap into this power for the integrated circuits. UNKNOWN VOLTAGE
 
 ## Proposed Solution
-  In order to read IR signals, we need to include a microcontroller, but in order to choose one, we need to know what else is needed.  2 physical buttons will take the place of the current physical potentiometer, which changes the internal volume variable. And rgb LED to determine when the system is powered, this can also be used as a debugging tool, changing colors when changeing internal variables. 2 digital potentiometers used to audjust the left and right channel, controlled through I2C. A dbdt switch will be used to control the "power" led signifier, connect the stand-by OUT and IN, and introduce power to the rest of the system. 
+  In order to read IR signals, we need to include a microcontroller, but in order to choose one, we need to know what else is needed.  2 physical buttons will take the place of the current physical potentiometer, which changes the internal volume variable. And rgb LED to determine when the system is powered, this can also be used as a debugging tool, changing colors when changeing internal variables. 2 digital potentiometers used to audjust the left and right channel, controlled through I2C. A dbdt switch will be used to control the "power" led signifier, connect the stand-by OUT and IN, and introduce power to the rest of the system. The microcontroller in question will need 2 pins for I2C communication (and the ability to do that), 2 pins for manuel control (2 buttons), 2 pins for the LED (Blue and Green), and 1 pin for the IR Sensor. In total we need 7 useable pins, and the ATtiny 404 will fit our case well [2].
 
 ## References
 [1] https://www.logitech.com/en-us/shop/p/z313-speaker-system-subwoofer.980-000382 
+[2] https://www.digikey.com/en/products/detail/microchip-technology/ATTINY404-SSNR/8594960
