@@ -3,7 +3,7 @@
   This project is an extension of a pre-existing product, that being a Logitech Z313 Speaker System with Subwoofer [1]. This speaker system is wired as the output to a sony TV, one that can be controlled with a wireless controller, but does not respond to volume up or volume down. This is okay, because the Logitech speakers do not work with the TV volume. The Logitech speakers control their volume by manuelly controlling a potentiometer. I would like the ability to control the volume remotely. The TV remote not controlling the TV volume works with us in this case, we can read the IR signals using an IR sensor. 
   The pre-existing circuit can be seen in Circuit_Board_Scale, and the wires we will be working with can be seen in Circuit_Board_Connectors. 
   
-<img src="Cuircuit_Board_Scale.jpeg" alt="Circuit_Board_Scale: a picture of the circuit next to a quarter" width="500"/>
+<img src="Circuit_Board_Scale.jpeg" alt="Circuit_Board_Scale: a picture of the circuit next to a quarter" width="500"/>
 <img src="Circuit_Board_Connectors.jpeg" alt="Circuit_Board_Connectors: a picture of the circuit revealing the pin placements" width="500"/>
 
 The pins go as follows: GND, Lout, Rout, GND, Lin, Rin, OUT, IN, LED
