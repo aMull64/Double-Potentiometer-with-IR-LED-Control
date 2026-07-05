@@ -5482,7 +5482,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 214.63 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a266002-06c8-4165-b3f6-a2ea2e9bd225")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 246.38 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5718,7 +5718,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 246.38 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5770,7 +5770,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5945,7 +5945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b49a9bf-8927-49f9-9ebb-f6427fd12a41")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 147.32 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6007,7 +6007,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc0b3ad-47a2-4106-90c6-660958ed213d")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 146.05 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6087,7 +6087,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 214.63 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +6432,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 245.11 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7118,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 214.63 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7504,7 +7504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "799cacf2-31f5-4942-8058-985fc9f5c975")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 90.17 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7568,7 +7568,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7820,7 +7820,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf527b5-ec52-40e6-bfae-af061c4033fc")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 115.57 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7884,7 +7884,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8060,7 +8060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "979f31d0-d3f2-4dd4-bf96-b326bdbf78e9")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 101.6 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8122,7 +8122,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8715,7 +8715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa6341ab-d3e8-478a-ac0c-41eec9ec4ae0")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 199.39 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8779,7 +8779,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9057,7 +9057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c606883f-0cfc-450a-9a9f-acc80e7a32b5")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 203.2 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +9121,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9139,7 +9139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccc52521-e859-4fad-9011-3459cb8b6964")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 203.2 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9203,7 +9203,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9379,26 +9379,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d59e5c4e-5f6b-47b4-8848-b0edfd097006")
-		(property "Reference" "R3"
-			(at 102.87 53.34 90)
+		(property "Reference" "R4"
+			(at 105.41 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 105.41 53.34 90)
+			(at 103.886 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -9443,7 +9444,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9550,7 +9551,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 214.63 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,7 +9621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de9ffcc9-2d40-4809-b14b-6e8707dba3a2")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 101.6 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +9683,7 @@
 		(instances
 			(project "Double-DigiPot-with-IR"
 				(path "/8790fbe4-afd7-47db-a1db-a7a2fdad799c"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)

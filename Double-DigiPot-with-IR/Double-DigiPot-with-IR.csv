@@ -1,0 +1,15 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C2, C3, C4";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";4;"100n";;;
+2;"C5, C6, C7, C8, C9, C10";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";6;"10u";;;
+3;"D1";"LED_D5.0mm-4_RGB_Staggered_Pins";1;"LED_RKGB";;;
+4;"J1";"PinSocket_1x09_P2.54mm_Vertical";1;"Conn_01x09_Pin";;;
+5;"R1, R2, R3";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"330";;;
+6;"R4, R5, R6";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";3;"4.7k";;;
+7;"R7, R8, R9, R10, R11, R12";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";6;"10k";;;
+8;"SW1";"CONN_S2273_APM";1;"SW_Push_DPDT";;;
+9;"TP1, TP2";"TestPoint_Pad_D4.0mm";2;"TestPoint";;;
+10;"TP3";"TestPoint_Pad_D4.0mm";1;"GNDPoint";;;
+11;"U1";"SOIC-14_3.9x8.7mm_P1.27mm";1;"ATtiny404-SS";;;
+12;"U2, U3";"MSOP8_MC_MCH";2;"MCP4561T-103E/MS";;;
+13;"U4";"Vishay_MINICAST-3Pin";1;"TSOP382xx";;;
+14;"U6";"SOT-89-3_Handsoldering";1;"MC78L05_SOT89";;;

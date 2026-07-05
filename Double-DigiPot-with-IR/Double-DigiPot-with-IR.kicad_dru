@@ -1,0 +1,8 @@
+(version 1)
+(rule "Minimum clearance 1"
+	(constraint clearance (min 0.18mm))
+)
+(rule "Via style 1"
+	(constraint via_diameter (min 0.36mm) (max 5mm))
+	(constraint hole_size (min 0.18mm) (max 5mm))
+)
