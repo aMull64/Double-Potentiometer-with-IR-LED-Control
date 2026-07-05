@@ -57,7 +57,7 @@
           "fill_mode": 0,
           "hatch_gap": 0.25,
           "hatch_orientation": 45.0,
-          "hatch_smoothing_level": 3,
+          "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 0.3,
           "min_clearance": 0.5,
@@ -533,13 +533,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -673,7 +674,7 @@
         "uuid": "8790fbe4-afd7-47db-a1db-a7a2fdad799c"
       }
     ],
-    "used_designators": "TP3,R7-13,C7-11,#PWR18-19,#PWR23-24,#PWR27-28,U6-7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
