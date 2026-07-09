@@ -10,7 +10,7 @@ The pins go as follows: GND, Lout, Rout, GND, Lin, Rin, OUT, IN, LED. Looking at
 - Lout and Rout are the left and right channels post-potentiometer
 - Lin and Rin are the left and right channels pre-potentiometer
 - OUT and IN seem to be used as a way to tell if the system is on or off. They are connected through the dbdt switch and nothing else.
-- LED is the power that goes to the LED; we might be able to tap into this power for the integrated circuits. UNKNOWN VOLTAGE
+- LED is the power that goes to the LED; we might be able to tap into this power for the integrated circuits. 12V
 
 ## Proposed Solution
   In order to read IR signals, we need to include a microcontroller, but in order to choose one, we need to know what else is needed. 2 physical buttons will take the place of the current physical potentiometer, which changes the internal volume variable. And an RGB LED to determine when the system is powered, this can also be used as a debugging tool, changing colors when changing internal variables. 2 digital potentiometers are used to adjust the left and right channel, controlled through I2C. A DBDT switch will be used to control the "power" LED signifier, connect the standby OUT and IN, and introduce power to the rest of the system. The microcontroller in question will need 2 pins for I2C communication (and the ability to do that), 2 pins for manual control (2 buttons), 2 pins for the LED (Blue and Green), and 1 pin for the IR Sensor. In total, we need 7 usable pins, and the ATtiny 404 will fit our case [2]. We will include 2 digital potentiometers that are controlled with I2C 
