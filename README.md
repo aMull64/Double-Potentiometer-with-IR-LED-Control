@@ -1,4 +1,3 @@
-# Project Overview
 ## Problem Formulation
   This project is an extension of a pre-existing product, that being a Logitech Z313 Speaker System with Subwoofer [1]. This speaker system is wired as the output to a Sony TV, one that can be controlled with a wireless controller, but does not respond to volume up or volume down. This is okay because the Logitech speakers do not work with the TV volume. The Logitech speakers control their volume by manually controlling a potentiometer. I would like the ability to control the volume remotely. The TV remote not controlling the TV volume works with us in this case; we can read the IR signals coming from the remote with an IR sensor and adjust the potentiometers to control the volume.
   
